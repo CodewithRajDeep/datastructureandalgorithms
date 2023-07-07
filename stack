@@ -1,0 +1,38 @@
+//stack data structures 
+// LIFO based algorithm where LIFO stands for Last-In-First-Out 
+//stores objects into a sort of "vertical tower" 
+
+//while using stack, we can use these methods : 
+/**1) push() - adds an element at the top of the stack
+ syntax : public  push(item) {
+    add Elements(item);
+
+    return item;
+ }
+ */
+
+import java.util.Stack;
+
+public class StackDS{
+    public static void main(String arg[]){
+
+        Stack<String> stack = new Stack<String>();
+
+        //System.out.println(stack.empty());
+
+        stack.push("valorant");
+        stack.push("Minecraft");
+        stack.push("Modern warfare");
+        stack.push("forza horizon");
+        stack.push("Read Dead Redemption2")
+
+        stack.pop(); //remove r2r2
+        stack.pop(); //remove forza horizon
+        stack.pop(); //remove modern warfare 
+        stack.pop(); //remove minecraft 
+        stack.pop(); //remove valorant 
+        
+
+        System.out.println(stack);
+    }
+}
